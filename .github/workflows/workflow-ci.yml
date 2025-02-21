@@ -22,4 +22,4 @@ jobs:
       with:
         node-version: 22.
     - run: npm install
-    - run: node server.js
+    - run: node ./src/server.js
