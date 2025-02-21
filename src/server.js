@@ -1,7 +1,7 @@
 const bodyParser = require('body-parser')
 const jsonServer = require('json-server')
 const server = jsonServer.create()
-const router = jsonServer.router('./src/data/database.json')
+const router = jsonServer.router('./data/database.json')
 const publicRoutes = require('./routes/publicRoutes')
 const authenticationMiddleware = require('./middleware/authenticationMiddleware')
 
